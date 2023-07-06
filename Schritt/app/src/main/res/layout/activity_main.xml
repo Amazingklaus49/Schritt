@@ -7,12 +7,108 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/schritte"
+        android:layout_width="276dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="68dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titel3"
+        android:layout_width="276dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="68dp"
+        android:text="Schritte Heute:"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titel4"
+        android:layout_width="276dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="68dp"
+        android:text="Schritte Heute:"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titel"
+        android:layout_width="224dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="94dp"
+        android:text="Datum"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titel2"
+        android:layout_width="276dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="68dp"
+        android:text="Täglicher Schrittzähler"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tabelleBtn"
+        android:layout_width="169dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="33dp"
+        android:text="Tabelle öffnen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="335dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="112dp"
+        android:text="Tabelle für Idealwerte:"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
