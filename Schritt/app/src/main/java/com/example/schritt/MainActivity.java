@@ -24,11 +24,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     SensorManager sensorManager;
     public int countSteps = 0;
     TextView TexVSteps;
-
     SharedPreferences sharedPreferences;
-
     ProgressBar progressBar;
-
     String dateNew;
     String dateOld;
 
@@ -132,6 +129,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     }
 
     @Override
-    public void onAccuracyChanged(Sensor sensor, int accuracy) {}
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {
+    }
 
 }
