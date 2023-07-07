@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My App - Download Now</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    #header {
+      background-color: #4285F4;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    #app-details {
+      margin: 20px;
+    }
+    #app-details h1 {
+      color: #4285F4;
+    }
+    #app-details p {
+      line-height: 1.5;
+    }
+    .swiper-container {
+      width: 500px;
+      height: 300px;
+      margin: 20px auto;
+    }
+    .swiper-slide img {
+      width: auto
+      height: 100%;
+      object-fit: cover;
+    }
+    #download-btn {
+      display: inline-block;
+      background-color: #4285F4;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 20px;
+    }
+    #download-btn:hover {
+      background-color: #3367D6;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>Schritt</h1>
+    <p>Download Now</p>
+  </div>
+
+  <div id="app-details">
+    <h1>"Schritt" Description</h1>
+    <p>Willkommen bei meiner App!
+
+Die App bietet dir eine benutzerfreundliche und intuitive Benutzeroberfläche, mit der du deine täglichen Schritte verfolgen kannst. Egal, ob du ein Fitness-Enthusiast, ein Gesundheitsbewusster oder einfach neugierig bist, wie aktiv du bist, diese App ist perfekt für dich.
+
+Funktionen:
+- Schrittzähler: Verfolge deine Schritte und erhalte eine genaue Aufzeichnung deiner täglichen Aktivität.
+- Fortschrittsanzeige: Überwache deinen Fortschritt mit einer übersichtlichen Fortschrittsleiste.
+- Verlauf: Schaue dir deinen Schrittverlauf an und vergleiche deine Aktivität über die Zeit.
+- Tabelle: Nutze die Tabelle, um deine Schritte detailliert zu analysieren und Muster zu erkennen.
+- Benutzerfreundlich: Eine intuitive Benutzeroberfläche macht es einfach, die App zu bedienen und die Ergebnisse zu verstehen.
+
+Lade jetzt die App herunter und fange an, deine Schritte zu zählen! Bleibe aktiv und verfolge deinen Fortschritt für ein gesünderes Leben.
+
+Hinweis: Die App benötigt Zugriff auf den Schrittzähler deines Geräts, um korrekte Ergebnisse zu liefern. Datenschutz ist uns wichtig, und wir speichern keine persönlichen Daten.
+
+Wir hoffen, dass dir die App gefällt und sie dich dabei unterstützt, deine Fitnessziele zu erreichen und ein aktiveres Leben zu führen.</p>
+
+	<a id="download-btn" href="./App.apk">Download</a>
+</div>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./1.png" alt="Screenshot 1">
+      </div>
+      <div class="swiper-slide">
+        <img src="./2.png" alt="Screenshot 2">
+      </div>
+      <div class="swiper-slide">
+        <img src="./3.png" alt="Screenshot 3">
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
